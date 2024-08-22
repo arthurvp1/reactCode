@@ -1,0 +1,8 @@
+.images-Body{
+    align-items: center;
+    justify-content: center;
+}
+body{
+    display: flex;
+    
+}
