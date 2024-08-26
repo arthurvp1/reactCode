@@ -1,0 +1,43 @@
+.header-container{
+    height: 15%;
+
+    display: flex;
+}
+.logotipo{
+    width: 7%;
+    height: 100%;
+}
+    .img-logotipo{
+        height: 100%;
+        width: 100%;
+    }
+.titulo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .titulo-farmacia{
+        font-size: 68px;
+        font-family: 'font-site';
+        color: #E23E57;
+    }
+
+.vazio{
+    height: 100%;
+    width: 45%;
+}
+
+.sections{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.local,.loja,.quem-somos{
+    font-size: 30px;
+    font-family: 'font-site';
+    color: #E23E57;
+}
