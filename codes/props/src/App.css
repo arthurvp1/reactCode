@@ -1,0 +1,17 @@
+html,body,#root{
+  margin: 0;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  /* display: flex ; */
+}
+.sun{
+  height: 10%;
+  width: 10%; 
+}
+body{
+  background-color: #f9a;
+}
+.app-container{
+  height: 60%;
+}
