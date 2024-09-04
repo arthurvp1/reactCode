@@ -9,14 +9,15 @@ function App() {
   return (
     <div className='app-container'>
 
-      {/* <Notas/> */}
+      <Notas/>
 
       <div className='centraliza-foto'>
-
         <Foto/>
 
       </div>
 
+
+        {alert("oi")}
       <div className='centraliza-botao'>
 
         <Porco/>
