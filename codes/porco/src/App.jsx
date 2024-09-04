@@ -9,9 +9,9 @@ function App() {
   return (
     <div className='app-container'>
 
-      <Notas/>
+      {/* <Notas/> */}
 
-      {/* <div className='centraliza-foto'>
+      <div className='centraliza-foto'>
 
         <Foto/>
 
@@ -21,7 +21,7 @@ function App() {
 
         <Porco/>
 
-      </div> */}
+      </div>
     </div>
   )
 }

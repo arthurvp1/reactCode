@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Notas() {
+    var nota = 0, notatotal,somanota = 0;
+    const [leitura, setLeitura] = useState()
+    const [notafinal, setNotafinal] = useState()
 
     function media(){
-        var nota = 0, notatotal,somanota = 0;
 
         for (let i = 0; i < 10; i++) {
             
@@ -17,19 +19,22 @@ function Notas() {
 
         notatotal = (somanota/10);
 
-        alert("Sua media total é "+ notatotal)
+        setNotafinal("Sua media total é "+ notatotal)
 
         if(notatotal>=7){
-            alert("Você passou!")
+            setLeitura("Você passou!")
         }
         else{
-            alert("Reprovado!!")
+            setLeitura("Reprovado!!")
         }
     }
 
   return (
     <div>
-      <button onClick={media}>Media</button>
+      <button onClick={media}>Media</button><br></br>
+      {notafinal}<br></br>
+      {leitura}
+
     </div>
   )
 }

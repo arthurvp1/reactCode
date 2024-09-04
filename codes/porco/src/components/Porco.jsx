@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Porco() {
+
+  var [imprime, setImprime] = useState();
 
   function produto(){
 
@@ -16,17 +18,19 @@ function Porco() {
 
 
     if(totalcofre>=valorproduto){
-      alert("Compra efetuada!")
+      setImprime("Compra efetuada!")
     }
     else{
-      alert("Saldo insuficiente seu pobre!")
+      setImprime("Saldo insuficiente seu pobre!")
     }
 
   }
 
   return (
     <div className='botao-porco'>
-      <button className='botao' onClick={produto}>Produto</button>
+      <button className='botao' onClick={produto}>Produto</button><br></br><br></br><br></br><br></br>
+
+      {imprime}
     </div>
   )
 }
