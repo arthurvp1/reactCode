@@ -13,7 +13,13 @@ body{
 .ex1-container{
   height: 100%;
 }
-button{
+.ex2-container{
+  height: 100%;
+}
+.arcondicionado{
+  height: 100%;
+}
+.ar-condicionado{
   margin-top:29%;
   margin-left: 32.1%;
   width: 251px;
