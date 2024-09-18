@@ -33,7 +33,6 @@ function Ex1() {
 
         inputdias.value = dias
 
-
     }
 
 

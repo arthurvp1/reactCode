@@ -9,8 +9,8 @@ function App() {
     <div className='app-container'>
 
       {/* <Ex1 /> */}
-      
-      <Ex2/>
+
+      <Ex2 />
 
     </div>
   )
