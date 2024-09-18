@@ -44,7 +44,7 @@ function Ex1() {
             />
 
             <button onClick={calculadias}>Calcular</button>
-            <p>Valor final: {valorfinal.toFixed(2)}</p>
+            <p>Valor final: {Number(valorfinal).toFixed(2)}</p>
 
         </div>
     )
