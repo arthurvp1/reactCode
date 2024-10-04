@@ -31,7 +31,7 @@ function Ex1() {
 
   return (
     <div className='ex1-container'>
-      <button className='ar-condicionado' onClick={temp}>ligar</button>
+      <button className='ar-condicionado' onClick={temp}>ligar</button><br></br>
       {escrita}
     </div>
   )

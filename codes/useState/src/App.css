@@ -5,15 +5,13 @@ html,body,#root{
 .app-container{
   height: 100%;
 }
-body{
-  background-image: url(./images/background.jpg);
-  object-fit: cover;
-  background-repeat: no-repeat;
-}
 .ex1-container{
   height: 100%;
 }
-button{
+.ex2-container{
+  height: 100%;
+}
+.ar-condicionado{
   margin-top:29%;
   margin-left: 32.1%;
   width: 251px;
