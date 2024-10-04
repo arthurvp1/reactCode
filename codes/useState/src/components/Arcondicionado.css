@@ -1,0 +1,30 @@
+html,body,#root{
+    margin: 0;
+    height: 100%;
+  }
+  .ar-container{
+    height: 100%;
+  }
+  body{
+    background-image: url(./images/background.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+  }
+  .ex1-container{
+    height: 100%;
+  }
+  .ex2-container{
+    height: 100%;
+  }
+  button{
+    margin-top:29%;
+    margin-left: 32.1%;
+    width: 251px;
+    height: 60px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #222;
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    cursor: pointer;
+  }

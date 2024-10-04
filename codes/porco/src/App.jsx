@@ -9,7 +9,7 @@ function App() {
   return (
     <div className='app-container'>
 
-      <Notas/>
+      {/* <Notas/> */}
 
       <div className='centraliza-foto'>
         <Foto/>
@@ -17,7 +17,7 @@ function App() {
       </div>
 
 
-        {alert("oi")}
+        {/* {alert("oi")} */}
       <div className='centraliza-botao'>
 
         <Porco/>

@@ -1,8 +1,15 @@
 html,body,#root{
+<<<<<<< HEAD
     height: 100%;
     margin: 0;
 }
 .ex1-container{
+=======
+    margin: 0;
+    height: 100%;
+}
+.ex2-container{
+>>>>>>> fe413b736c52c8bd1b1685ac72ceeaafec02ee93
     height: 100%;
 }
 button{

@@ -6,11 +6,11 @@ function Porco() {
 
   function produto(){
 
-    var moeda1 = 5;
-    var moeda5 = 5;
-    var moeda10 = 5;
-    var moeda25 = 5;
-    var moeda50 = 5;
+    var moeda1 = 0.1 * 10;
+    var moeda5 = 0.5 * 10;
+    var moeda10 = 0.10 *  10;
+    var moeda25 = 0.25 * 10;
+    var moeda50 = 0.50 *  10;
     var totalcofre = (moeda1+moeda5+moeda10+moeda25+moeda50);
     var valorproduto;
 
@@ -28,7 +28,7 @@ function Porco() {
 
   return (
     <div className='botao-porco'>
-      <button className='botao' onClick={produto}>Produto</button><br></br><br></br><br></br><br></br>
+      <button className='botao' onClick={produto}>Produto</button><br/><br/>
 
       {imprime}
     </div>

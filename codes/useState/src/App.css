@@ -11,6 +11,12 @@ html,body,#root{
 .ex2-container{
   height: 100%;
 }
+<<<<<<< HEAD
+=======
+.arcondicionado{
+  height: 100%;
+}
+>>>>>>> fe413b736c52c8bd1b1685ac72ceeaafec02ee93
 .ar-condicionado{
   margin-top:29%;
   margin-left: 32.1%;
