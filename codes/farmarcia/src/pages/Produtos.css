@@ -1,0 +1,26 @@
+.produto-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.produtos-text{
+    font-size: 50px;
+    padding-top: 5%;
+    color: var(--cor-4);
+}
+.produtos-produto1{
+    width: 350px;
+}
+.produtos-produto2{
+    width: 350px;
+}
+
+.produtos-desc{
+    font-size: 20px;
+    width: 55%;
+    padding: 20px;
+    color: var(--cor-1);
+    text-align: center;
+}

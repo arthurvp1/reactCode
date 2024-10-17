@@ -1,5 +1,7 @@
 import React from 'react'
 import './Header.css'
+import Body from './Body'
+import Senha from '../../pages/Senha'
 
 function Header() {
   return (
@@ -20,10 +22,10 @@ function Header() {
         </div>
 
         <div className='sections'>        
-            <label className='loja'>Loja</label>
-            <label className='local'>Local</label>
-            <label className='quem-somos'>quem somos</label>
-
+        <button onClick={() => <Senha/>} className='loja'>Loja</button>
+        <button className='local'>Local</button>
+        <button className='quem-somos'>Quem Somos</button>
+        <button className='senha'>Senha</button>
         </div>
     </div>
   )

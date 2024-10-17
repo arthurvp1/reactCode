@@ -1,0 +1,43 @@
+.senha-container{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    color: black;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 0px 0px 12px black;
+}
+button:hover{
+  background-color: var(--cor-6);
+}
+button:active{
+    background-color: var(--cor-3);
+}
+input{
+    width: 250px;
+    height: 25px;
+    color: black;
+    text-align: center;
+}
+select{
+    width: 120px;
+    height: 40px;
+    color: black;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 0px 0px 12px black;
+    padding: 5px;
+    text-align: center;
+}
+
+select:focus{
+    border: none; 
+    outline: none; 
+}

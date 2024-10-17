@@ -1,6 +1,6 @@
 import './App.css'
-import Body from './assets/components/body'
-import Header from './assets/components/header'
+import Body from './assets/components/Body'
+import Header from './assets/components/Header'
 
 function App() {
 
@@ -9,7 +9,6 @@ function App() {
 
       <Header/>
 
-      <Body/>
 
    </div>
   
