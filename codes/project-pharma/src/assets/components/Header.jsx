@@ -19,7 +19,7 @@ function Header() {
 
         </div>
 
-        <div className='sections'>
+        <div className='sections'>        
             <label className='loja'>Loja</label>
             <label className='local'>Local</label>
             <label className='quem-somos'>quem somos</label>
