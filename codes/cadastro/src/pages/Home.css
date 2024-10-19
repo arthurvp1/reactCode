@@ -1,0 +1,78 @@
+body,html,#root{
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+    .home-container{
+        padding: 3%;
+        background-color: #ffebcd;
+        height: 87.3%;
+        width: 94%;
+        display: flex;
+    }
+        .esquerdo{
+            background-color: aqua;
+            width: 60%;
+        }
+            .texts{
+                text-align: left;
+                height: 20%;
+                width: 100%;
+                margin-left: 3%;
+            }
+                .titulo{
+                    font-size: 30px;
+                    font-weight: bold;
+                }
+                .descricao{
+                    font-size: 20px;
+                }
+                .verde{
+                    color: #08ca08;
+                    font-weight: bold;
+                }
+                .inputs{
+                    margin-left: 3%;
+                    height: 45%;
+                    width: 100%;
+                }
+                .username-input,.email-input,.senha-input,.telefone,.nascimento-input{
+                    width: 600px;
+                    height: 45px;
+                    border-top: 0px;
+                    border-left: 0px;
+                    border-right: 0px;
+                    background-color: transparent;
+                    padding-left: 2%;
+                    font-size: 17px;
+                }
+                input:focus{
+                    outline: none;
+                }
+                .buttons{
+                    display: flex;
+                    width: 100%;
+                    height: 30%;
+                    align-items: center;
+                    justify-content: left;
+                    margin-left: 15%;
+                    gap: 10%;
+                }
+                    .confirma,.limpa{
+                        width: 150px;
+                        height: 55px;
+                        border-radius: 20px;
+                    }
+                    .confirma{
+                        background-color: #08ca08 ;
+                        color: white;
+                    }
+                    .limpa{
+                        background-color: #ff1d1d;
+                        color: white;
+                    }
+
+        .direito{
+            background-color: rgb(42, 32, 20);
+            width: 40%;
+        }
