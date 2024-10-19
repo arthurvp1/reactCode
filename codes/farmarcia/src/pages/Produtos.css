@@ -9,6 +9,11 @@
     font-size: 50px;
     padding-top: 5%;
     color: var(--cor-4);
+    font-weight: bold;
+}
+.container-imagens{
+    display: flex;
+    justify-content: center;
 }
 .produtos-produto1{
     width: 350px;
@@ -22,5 +27,21 @@
     width: 55%;
     padding: 20px;
     color: var(--cor-1);
+    text-align: center;
+}
+.descricao-botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+}
+.botao-comprar{
+    margin-bottom: 20px;
+}
+.titulo{
+    width: 100%;
     text-align: center;
 }

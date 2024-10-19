@@ -5,8 +5,7 @@ function Local() {
     return (
         <div className='local-container'>
             <h2 className='contato-titulo'>Contatos</h2>
-            <img className='contato-img' src="/images/farmarcia-cartoes.png" alt="" />
-            <center>
+            <img className='contato-img' src="/images/farmarcia-cartoes.png" alt="" /><br/>
             <label className='contato-text'>
                 Endereço de E-mail: contato@exemplo.com.br<br />
                 Número: (11) 91234-5678<br />
@@ -15,8 +14,6 @@ function Local() {
                 Facebook: Exemplo Oficial<br />
                 LinkedIn: João Silva
             </label>
-
-            </center>
 
         </div>
     )

@@ -20,7 +20,7 @@
     .titulo-farmacia{
         font-size: 68px;
         font-family: 'font-site';
-        color: #E23E57;
+        color: var(--cor-4);
     }
 
 .vazio{
@@ -38,7 +38,7 @@
     .local,.loja,.quem-somos,.senha{
         font-size: 30px;
         font-family: 'font-site';
-        color: #E23E57;
+        color: var(--cor-4);
         border: 0;
         background-color: white;
         cursor: pointer;
