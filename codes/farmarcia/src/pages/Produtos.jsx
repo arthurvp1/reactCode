@@ -23,7 +23,7 @@ function Produtos() {
                 <br/>
             </div>
             <div className='botao'>
-                <button className='botao-comprar'>Comprar Agora</button>
+                <button htmlFor="produto-desc" className='botao-comprar'>Comprar Agora</button>
             </div>
         </div>
     )

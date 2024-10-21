@@ -12,7 +12,7 @@ function App() {
       
       <Header/>
       <Body/>
-      <Produtos/>
+      {/* <Produtos/> */}
       <Local/>
       <Senha/>
 

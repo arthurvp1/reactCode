@@ -1,6 +1,8 @@
 .header-container{
     height: 15%;
     display: flex;
+    box-shadow: 2px 2px 8px black;
+    border-radius: 0 0 10px 10px;
 }
 .logotipo{
     width: 10%;
@@ -11,7 +13,7 @@
         width: 100%;
     }
 .titulo{
-    width: 22%;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;

@@ -1,5 +1,8 @@
 import React from 'react'
 import './Body.css'
+import Produtos from '../pages/Produtos'
+import Local from '../pages/Local'
+import Senha from '../pages/Senha'
 
 function Body() {
   return (
@@ -20,6 +23,7 @@ function Body() {
         formação em administração e uma paixão por design e tecnologia. Com 32 anos e uma carreira repleta de desafios e conquistas, 
         Márcia deu nova vida ao legado de seu tio Mário, que sempre foi um pilar na comunidade.
       </label>
+      <Produtos/>
     </div>
   )
 }

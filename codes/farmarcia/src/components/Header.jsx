@@ -21,11 +21,11 @@ function Header() {
 
       <div className='vazio'> </div>
 
-      <div className='sections'>        
+      {/* <div className='sections'>        
         <button className='loja'>Loja</button>
         <button className='local'>Local</button>
         <button className='senha'>Senha</button>
-      </div>
+      </div> */}
   </div>
   )
 }
