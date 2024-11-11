@@ -11,7 +11,16 @@ const[produtos, setProdutos] = useState([])
 
 
     return(
-        <GlobalContext.Provider value={{usuarioLogado,idadeUsuario, timeTorcida,produto,setProduto,produtos,setProdutos}}>
+        <GlobalContext.Provider value={{
+        usuarioLogado,
+        idadeUsuario, 
+        timeTorcida,
+        produto,
+        setProduto,
+        produtos,
+        setProdutos
+        
+        }}>
             {children}
         </GlobalContext.Provider>
     )

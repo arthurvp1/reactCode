@@ -6,7 +6,7 @@ import { GlobalContext } from '../contexts/GlobalContext';
 
 function CadastroProduto() {
     
-    const {produtos,setProdutos} = new useContext(GlobalContext);
+    const {produtos,setProdutos} = useContext(GlobalContext);
     
     const[inputnome, setInputnome] = useState('');
     const[inputpreco, setInputpreco] = useState('');
@@ -61,7 +61,9 @@ function CadastroProduto() {
 
             {produtos.map((p) => (
                 <div>
-                    <p>{p.nome}</p>
+                    <p> Produto: {p.nome}</p>
+                    <p> id: {p.id}</p>
+                    <p>R$ {p.preco},00</p>
                 </div>
             ))}
 
